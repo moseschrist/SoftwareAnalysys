@@ -1,0 +1,110 @@
+{
+
+module Lexer
+  
+open System
+open Microsoft.FSharp.Text.Lexing
+open System.Collections.Generic
+open Parser
+
+exception SyntaxError of string
+
+let lexeme = LexBuffer<_>.LexemeString
+
+let newline (lexbuf: LexBuffer<_>) = 
+  lexbuf.StartPos <- lexbuf.StartPos.NextLine
+
+
+let keywords = (* a Map collection representing the keyword to token id funcction *)
+    [   
+        "while",  WHILE;   
+        "While",  WHILE; 
+        "do",     DO;
+        "Do",     DO;  
+        "if",     IF;   
+        "If",     IF;   
+        "choose", CHOOSE;   
+        "Choose", CHOOSE;  
+        "assume", ASSUME;
+        "Assume", ASSUME; 
+        "else",   ELSE;   
+        "Else",   ELSE;   
+        "or",     OR;   
+        "Or",     OR;   
+        "skip",   SKIP;  
+        "Skip",   SKIP; 
+        "true",   TRUE;
+        "True",   TRUE;
+        "false",  FALSE;
+        "False",  FALSE; 
+    ] |> Map.ofList   
+ 
+let ops =   
+    [   
+        ":=",  ASSIGN;   
+        "+",   PLUS;  
+        "-",   MINUS; 
+        "*",   TIMES;
+        "==",  EQUAL;
+        "!=",  NOTEQUAL;
+        ">",   GREAT;
+        ">=",  GREATEQUAL;
+        "<",   LESS;
+        "<=",  LESSEQUAL;  
+    ] |> Map.ofList 
+
+(* internal lexer definitions *)
+let pos = ref 0
+let varIndex = ref 0
+let varString = ref ""
+let error = fun x -> printfn("%A\n") x 
+
+(* hash table from string to int - to store the variables found during parse *)
+(* the hash table indetifier *)  
+let varTable  = new Dictionary<string, int>()
+
+(* if variable was already encountered - returns its integer index, 
+   otherwise assigns variable with a fresh index and returns this index *)
+let rec getVarIndex (varId : string, varTable : Dictionary<string, int>) = 
+      let newVarIndex(varId : string) =
+           let _ = varIndex := !(varIndex : int ref) + 1
+           let _ = (varTable.Add(varId, !varIndex))
+           let _ = (varString := (!(varString : string ref) + varId + " = " + (!varIndex).ToString() + "\n"))
+           getVarIndex(varId, varTable)
+      if (varTable.ContainsKey(varId)) then varTable.[varId]
+      else newVarIndex(varId) 
+}   
+
+let char        = ['a'-'z' 'A'-'Z']
+let digit       = ['0'-'9']   
+let identifier  = char(char|digit|['-' '_'])*   
+let whitespace  = [' ' '\t']   
+let newline     = "\n\r" | '\n' | '\r'  
+let operator    = ":=" | "+" | "-" | "*" | "==" | "!=" | "<" |"<=" | ">" | ">="
+let comment		= '%'[^'\n']*'\n'
+let int         = ['-' '+']? ['0'-'9']+
+
+rule tokenize = 
+	parse   
+	| comment	    { lexbuf.EndPos <- lexbuf.EndPos.NextLine; tokenize lexbuf; }
+	| whitespace    { tokenize lexbuf }   
+	| newline	    { lexbuf.EndPos <- lexbuf.EndPos.NextLine; tokenize lexbuf; } 
+	| operator      { ops.[LexBuffer<_>.LexemeString lexbuf] }
+	| identifier    { match keywords.TryFind(LexBuffer<_>.LexemeString lexbuf) with
+                        | Some(token) -> token   
+                        | None -> VAR(getVarIndex((LexBuffer<_>.LexemeString lexbuf), varTable))}   
+	| int			{ FIX (int (lexeme lexbuf)) }
+	| ';'           { SEMI }
+	| '('           { LPAREN }
+	| ')'           { RPAREN }
+	| '{'           { LBRACE }
+	| '}'           { RBRACE }
+	| eof           { EOF }
+	| _ { raise (Exception (sprintf "SyntaxError: Unexpected char: '%s' Line: %d Column: %d" (lexeme lexbuf) (lexbuf.StartPos.Line+1) lexbuf.StartPos.Column)) }
+
+and read_string str ignorequote =
+  parse
+  | '"'           { if ignorequote  then (read_string (str+"\\\"") false lexbuf) else STRING (str) }
+  | '\\'          { read_string str true lexbuf }
+  | [^ '"' '\\']+ { read_string (str+(lexeme lexbuf)) false lexbuf }
+  | eof           { raise (Exception ("String is not terminated")) }

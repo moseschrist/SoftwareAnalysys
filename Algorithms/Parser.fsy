@@ -1,0 +1,60 @@
+%{
+open BJKCore
+%}
+
+%token SEMI 
+%token LPAREN 
+%token RPAREN
+%token PLUS MINUS TIMES
+%token <int> VAR	  
+%token <int> FIX
+%token EQUAL NOTEQUAL GREAT GREATEQUAL LESS LESSEQUAL
+%token TRUE FALSE
+%token WHILE
+%token DO
+%token IF
+%token ELSE
+%token CHOOSE
+%token ASSUME
+%token OR
+%token ASSIGN
+%token SKIP
+%token LBRACE RBRACE
+%token PROG
+%token EOF
+%token CMD
+%token <string> STRING
+
+%left PLUS SEMI VAR
+%left MINUS
+%left TIMES
+%left EQUAL NOTEQUAL GREAT GREATEQUAL LESS LESSEQUAL TRUE FALSE
+
+%start PROG
+%type <BJKCore.Cmd> PROG
+%%
+
+// the parser returns the value associated with the expression
+  PROG    : COMMAND	EOF			                               	  {$1}
+		  | COMMAND												  {$1}
+  COMMAND : SKIP					                              {BJKCore.Skip} 
+		  | VAR ASSIGN EXP 	                                      {BJKCore.Asgn($1,$3)}
+		  | COMMAND SEMI COMMAND                                  {BJKCore.Seq($1,$3)}
+		  | WHILE LPAREN BOOLEXP RPAREN DO LBRACE COMMAND RBRACE  {BJKCore.Seq(BJKCore.Loop(BJKCore.Seq(BJKCore.Assume($3),$7)),BJKCore.AssumeNot($3))}
+		  | IF LBRACE COMMAND RBRACE ELSE LBRACE COMMAND RBRACE   {BJKCore.Choice($3,$7)}
+		  | CHOOSE LBRACE COMMAND RBRACE OR LBRACE COMMAND RBRACE {BJKCore.Choice($3,$7)}
+		  | ASSUME LPAREN BOOLEXP RPAREN                          {BJKCore.Assume($3)}
+  EXP : VAR      		    {BJKCore.Var($1)}
+      | FIX                 {BJKCore.Fix ($1)}
+      | EXP PLUS EXP        {BJKCore.Plus($1,$3)}
+      | EXP MINUS EXP       {BJKCore.Minus($1,$3)}
+      | EXP TIMES EXP       {BJKCore.Times($1,$3)}
+	  | LPAREN EXP RPAREN   {$2}
+  BOOLEXP : EXP EQUAL EXP      {BJKCore.Equal($1,$3)}
+          | EXP NOTEQUAL EXP   {BJKCore.NotEqual($1,$3)}
+          | EXP GREAT EXP      {BJKCore.Great($1,$3)}
+          | EXP GREATEQUAL EXP {BJKCore.GreatEqual($1,$3)}
+          | EXP LESS EXP       {BJKCore.Less($1,$3)}
+          | EXP LESSEQUAL EXP  {BJKCore.LessEqual($1,$3)}
+		  | TRUE               {BJKCore.True}
+		  | FALSE              {BJKCore.False}

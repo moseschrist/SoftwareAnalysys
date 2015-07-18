@@ -1,0 +1,121 @@
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\obj\Debug\CoreReset.AboutForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\obj\Debug\CoreReset.CoreResetForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\obj\Debug\CoreReset.Properties.Resources.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\obj\Debug\CoreReset.AboutForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\obj\Debug\CoreReset.CoreResetForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\obj\Debug\CoreReset.Properties.Resources.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\obj\Debug\CoreReset.AboutForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\obj\Debug\CoreReset.CoreResetForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\obj\Debug\CoreReset.Properties.Resources.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\App\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.AboutForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.CoreResetForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.Properties.Resources.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\obj\Debug\CoreReset.AboutForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\obj\Debug\CoreReset.CoreResetForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\obj\Debug\CoreReset.Properties.Resources.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - Ex 1\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\CoreReset.exe.config
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\CoreReset.exe
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\CoreReset.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.AboutForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.CoreResetForm.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.Properties.Resources.resources
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.exe
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.pdb
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreReset.exe.config
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreReset.exe
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreReset.pdb
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\Algorithms.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\FsLexYacc.Runtime.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\Algorithms.pdb
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\FsLexYacc.Runtime.xml
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.AboutForm.resources
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.CoreResetForm.resources
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.Properties.Resources.resources
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\FSharp.PowerPack.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\FSharp.PowerPack.xml

@@ -1,0 +1,89 @@
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur\CoreResetBasic\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Zur Original\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer2\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\CoreResetBasic - Ofer - ex 1 - stage 1\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\CoreResetBasic - Ofer - ex 1 - stage 1 test\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\תרגילים\תרגיל תכנות 1\Ofer Amibar - Prog - ex 1\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\Ofer Amibar - Prog - ex 1\Algorithms\obj\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\bin\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\bin\Debug\Algorithms.pdb
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\bin\Debug\FSharp.Core.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\bin\Debug\FSharp.Core.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\obj\Debug\Algorithms.dll
+E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\obj\Debug\Algorithms.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\Algorithms.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.Core.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.Core.xml
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\obj\Debug\Algorithms.fsprojResolveAssemblyReference.cache
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Linq.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Metadata.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Parallel.Seq.dll
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.xml
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Linq.xml
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Metadata.xml
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Parallel.Seq.xml
