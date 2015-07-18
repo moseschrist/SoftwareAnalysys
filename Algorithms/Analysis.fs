@@ -10,11 +10,42 @@ open Microsoft.FSharp.Math
 (************************************************************)
 module AbstractDomain = 
     type IntvBound = | FinitBound of int              (* the bound is integer *)
-                     | Inf of string      (* the bound is -+infinite *)
-                     | NegInf of string
+                     | Inf      (* the bound is -+infinite *)
+                     | NegInf
     
+    let IntvBoundAdd (I1:IntvBound, I2:IntvBound) = 
+            match(I1,I2) with
+                (FinitBound a1, FinitBound a2) -> FinitBound(a1+a2)
+               | (Inf , _) -> Inf
+               | (NegInf, _) -> NegInf
+               | (_ , Inf) -> Inf
+               | (_ , NegInf) -> NegInf
+          
+    let IntvBoundSub (I1:IntvBound, I2:IntvBound) = 
+            match(I1,I2) with
+                (FinitBound a1, FinitBound a2) -> FinitBound(a1-a2)
+               | (Inf , _) -> Inf
+               | (NegInf, _) -> NegInf
+               | (_ , Inf) -> Inf
+               | (_ , NegInf) -> NegInf
+
     type Intv = {a: IntvBound; b:IntvBound}       
     
+    
+    let IntvAdd (I1:Intv) (I2:Intv) =
+        let {a=a1;b=b1} = I1
+        let {a=a2; b=b2} = I2
+        {a=IntvBoundAdd(a1,a2); b=IntvBoundAdd(b1,b2)}    
+    
+    let IntvSub (I1:Intv) (I2:Intv) =
+        let {a=a1;b=b1} = I1
+        let {a=a2; b=b2} = I2
+        {a=IntvBoundSub(a1,a2); b=IntvBoundSub(b1,b2)}    
+    
+    
+
+    
+
     let TopInterval = {a=Inf("inf"); b=NegInf("-inf")}
     let TopMatrix n = Matrix.zero n n
     let Bottom = "_"
