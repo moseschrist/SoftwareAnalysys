@@ -15,6 +15,8 @@ module AbstractDomain =
     
     type Intv = {a: IntvBound; b:IntvBound}       
     
+    let TopInterval = {a=Inf("inf"); b=NegInf("-inf")}
+    let TopMatrix n = Matrix.zero n n
     let Bottom = "_"
     let Top = "T"
 
@@ -29,11 +31,19 @@ module AbstractSemantics =
 
 
     let  initLattice n = 
-        { Intervals= Array.create n ({AbstractDomain.a= AbstractDomain.NegInf("-inf"); AbstractDomain.b=AbstractDomain.Inf("inf")});
-            RelationMatrix = Matrix.zero n n}
+        { Intervals= Array.create n AbstractDomain.TopInterval;
+            RelationMatrix = AbstractDomain.TopMatrix n}
+
+    
     
     let UpdatePState(s:_PState) (varNum:int) (newInterval:AbstractDomain.Intv) (relationVector: vector) =
+        let {Intervals=i; RelationMatrix=r} = s
+        i.SetValue(newInterval, varNum)
+        for ind in 1 .. r.Column(varNum).Length do
+            r.Column(varNum).InternalValues.SetValue(relationVector.Item(ind),ind)
         s
+
+    
 
     let rec updatePState (c:BJKCore.Cmd) (pst:PState) = 
        match c with
@@ -80,35 +90,8 @@ type resultType =
 (*  main analysis function. currently quite stupid *)
 let analyse(c : BJKCore.Cmd) : resultType = 
 
-    let numVars = BJKCore.highest_var c
-
-    let rec abstractInt(c: BJKCore.Cmd, s: AbstractSemantics.PState) : AbstractSemantics.PState =
-        match c with 
-                    |  BJKCore.Seq(c1,c2)        -> [| 1; 2 |]
-                    |  BJKCore.Choice(c1,c2)     -> [| 1; 2 |]
-                    |  BJKCore.Assume(b)         -> [| 1; 2 |]
-                    |  BJKCore.AssumeNot(b)      -> [| 1; 2 |]
-                    |  BJKCore.Skip              -> [| 1; 2 |]
-                    |  BJKCore.Asgn(i, e)        -> [| 1; 2 |]
-                    |  BJKCore.Loop(c)           -> [| 1; 2 |]
-                    |  BJKCore.While(b, c)       -> [| 1; 2 |]
-
-    let rec printCode(c: BJKCore.Cmd) : string =
-        match c with 
-                    |  BJKCore.Seq(c1,c2)        -> printCode(c1) + "\n" + printCode(c2) + "\n"
-                    |  BJKCore.Choice(c1,c2)     -> "Choose {\n" + printCode(c1) + "\n};\n" + "or {\n" + printCode(c2) + "\n};\n"
-                    |  BJKCore.Assume(b)         -> "Assume (" + b.ToString() + ");\n"
-                    |  BJKCore.AssumeNot(b)      -> "Assume (" + b.ToString() + ");\n"
-                    |  BJKCore.Skip              -> "Skip;\n"
-                    |  BJKCore.Asgn(i, e)        -> i.ToString() + " := " + e.ToString() + ";\n"
-                    |  BJKCore.Loop(c)           -> "Loop*\n"
-                    |  BJKCore.While(b, c)       -> "While (" + b.ToString() + ") {\n" + printCode(c) + "\n};\n"
-
-
-
-
-
-//    { info = "Hello \r\n 42" } : resultType
-    {  info = BJKCore.pprti "" "\r\n" c } : resultType
+    
+    { info = "Hello \r\n 42" } : resultType
+ //   {  info = BJKCore.pprti "" "\r\n" c } : resultType
 
 
