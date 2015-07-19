@@ -13,40 +13,106 @@ module AbstractDomain =
                      | Inf      (* the bound is -+infinite *)
                      | NegInf
     
-    let IntvBoundAdd (I1:IntvBound, I2:IntvBound) = 
-            match(I1,I2) with
-                (FinitBound a1, FinitBound a2) -> FinitBound(a1+a2)
-               | (Inf , _) -> Inf
-               | (NegInf, _) -> NegInf
-               | (_ , Inf) -> Inf
-               | (_ , NegInf) -> NegInf
-          
-    let IntvBoundSub (I1:IntvBound, I2:IntvBound) = 
-            match(I1,I2) with
-                (FinitBound a1, FinitBound a2) -> FinitBound(a1-a2)
-               | (Inf , _) -> Inf
-               | (NegInf, _) -> NegInf
-               | (_ , Inf) -> Inf
-               | (_ , NegInf) -> NegInf
+                        static member (+) (left: IntvBound, right:IntvBound) = 
+                                  match(left,right) with
+                                    (FinitBound a1, FinitBound a2) -> FinitBound(a1+a2)
+                                   | (Inf , _) -> Inf
+                                   | (NegInf, _) -> NegInf
+                                   | (_ , Inf) -> Inf
+                                   | (_ , NegInf) -> NegInf
+    
+                        static member (-) (left: IntvBound, right:IntvBound) = 
+                                  match(left,right) with
+                                    (FinitBound a1, FinitBound a2) -> FinitBound(a1-a2)
+                                   | (Inf , _) -> Inf
+                                   | (NegInf, _) -> NegInf
+                                   | (_ , Inf) -> NegInf
+                                   | (_ , NegInf) -> Inf
+                        static member (*) (left: IntvBound, right:IntvBound) =
+                                  match(left,right) with
+                                    (FinitBound a1, FinitBound a2) -> FinitBound(a1*a2)
+                                    | (Inf, _) -> Inf
+                                    | (_, Inf) -> Inf
+                                    | (NegInf, _) -> NegInf
+                                    | (_, NegInf) -> NegInf
+    
+    let IntvBoundGreaterEqualThan(left:IntvBound, right:IntvBound) =
+        match (left,right) with
+            (FinitBound a, FinitBound b) -> a>=b
+            | (Inf, _) -> true
+            | (_ , Inf) -> false
+            | (NegInf, _) -> false
+            | (_, NegInf) -> true
+            
+    let IntvBoundLessEqualThan(left:IntvBound, right:IntvBound) =
+        match (left,right) with
+            (FinitBound a, FinitBound b) -> a<=b
+            | (_, Inf) -> true
+            | (Inf, _) -> false
+            | (NegInf, _) -> true
+            | (_, NegInf) -> false
+            
 
+    
+    let IntvBoundMax(I1: IntvBound, I2:IntvBound) =
+        match(I1,I2) with
+            (FinitBound a1, FinitBound a2) -> FinitBound(max(a1)(a2))
+            | (Inf, _) -> Inf
+            | (_ , Inf) -> Inf
+            | (NegInf, a) -> a
+            | (a, NegInf) -> a
+
+    let IntvBoundMin(I1: IntvBound, I2:IntvBound) =
+        match(I1,I2) with
+            (FinitBound a1, FinitBound a2) -> FinitBound(min(a1)(a2))
+            | (Inf, a) -> a
+            | (a , Inf) -> a
+            | (NegInf, _) -> NegInf
+            | (_, NegInf) -> NegInf
+
+
+    
     type Intv = {a: IntvBound; b:IntvBound}       
+                static member (+) (left: Intv, right: Intv) =
+                    let {a=a1;b=b1} = left
+                    let {a=a2; b=b2} = right
+                    {a=a1+a2; b=b1+b2}    
     
-    
-    let IntvAdd (I1:Intv) (I2:Intv) =
+                static member (-) (left:Intv, right:Intv) =
+                    let {a=a1;b=b1} = left
+                    let {a=a2; b=b2} = right
+                    {a=a1+a2; b=b1+b2}
+        
+    let IntvMultiply (I1:Intv, I2:Intv) =
         let {a=a1;b=b1} = I1
         let {a=a2; b=b2} = I2
-        {a=IntvBoundAdd(a1,a2); b=IntvBoundAdd(b1,b2)}    
+        {   a=IntvBoundMin(
+                IntvBoundMin(a1*a2
+                    ,a1*b2),
+                IntvBoundMin(b1*a2,
+                    b1*b2));  
+            b=IntvBoundMax(
+                IntvBoundMax(a1*a2
+                    ,a1*b2),
+                IntvBoundMax(b1*a2,
+                    b1*b2))}
+
     
-    let IntvSub (I1:Intv) (I2:Intv) =
+    let IntvJoin(I1,I2) =
         let {a=a1;b=b1} = I1
         let {a=a2; b=b2} = I2
-        {a=IntvBoundSub(a1,a2); b=IntvBoundSub(b1,b2)}    
+        {a=IntvBoundMin(a1,a2);b=IntvBoundMax(b1,a2)}
     
+    let IntvWidening(I1,I2) =
+        let {a=a1;b=b1} = I1
+        let {a=a2; b=b2} = I2
+        let _a = if IntvBoundGreaterEqualThan(a2,a1) then a1 else NegInf
+        let _b = if IntvBoundLessEqualThan(b2,b1) then b1 else Inf  
+        {a = _a; b = _b}
     
 
-    
 
-    let TopInterval = {a=Inf("inf"); b=NegInf("-inf")}
+    let TopInterval = {a=Inf; b=NegInf}
     let TopMatrix n = Matrix.zero n n
     let Bottom = "_"
     let Top = "T"
