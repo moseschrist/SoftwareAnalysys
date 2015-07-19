@@ -72,7 +72,7 @@ module AbstractDomain =
 
 
     
-    type Intv = {a: IntvBound; b:IntvBound}       
+    type Intv = {mutable a: IntvBound;  mutable b:IntvBound}       
                 static member (+) (left: Intv, right: Intv) =
                     let {a=a1;b=b1} = left
                     let {a=a2; b=b2} = right
@@ -83,34 +83,35 @@ module AbstractDomain =
                     let {a=a2; b=b2} = right
                     {a=a1+a2; b=b1+b2}
         
-    let IntvMultiply (I1:Intv, I2:Intv) =
-        let {a=a1;b=b1} = I1
-        let {a=a2; b=b2} = I2
-        {   a=IntvBoundMin(
-                IntvBoundMin(a1*a2
-                    ,a1*b2),
-                IntvBoundMin(b1*a2,
-                    b1*b2));  
-            b=IntvBoundMax(
-                IntvBoundMax(a1*a2
-                    ,a1*b2),
-                IntvBoundMax(b1*a2,
-                    b1*b2))}
+                static member (*) (left:Intv, right:Intv) =
+                    let {a=a1;b=b1} = left
+                    let {a=a2; b=b2} = right
+                    {   a=IntvBoundMin(
+                            IntvBoundMin(a1*a2
+                                ,a1*b2),
+                            IntvBoundMin(b1*a2,
+                                b1*b2));  
+                        b=IntvBoundMax(
+                            IntvBoundMax(a1*a2
+                                ,a1*b2),
+                            IntvBoundMax(b1*a2,
+                                b1*b2))}
 
-    
-    let IntvJoin(I1,I2) =
-        let {a=a1;b=b1} = I1
-        let {a=a2; b=b2} = I2
-        {a=IntvBoundMin(a1,a2);b=IntvBoundMax(b1,a2)}
-    
-    let IntvWidening(I1,I2) =
-        let {a=a1;b=b1} = I1
-        let {a=a2; b=b2} = I2
-        let _a = if IntvBoundGreaterEqualThan(a2,a1) then a1 else NegInf
-        let _b = if IntvBoundLessEqualThan(b2,b1) then b1 else Inf  
-        {a = _a; b = _b}
-    
+                member this.Assign(other:Intv) =
+                  this.a <- FinitBound(1)
+                  this.b <- FinitBound(2)
 
+                member this.Join(other:Intv) =
+                  let {a=a2; b=b2} = other
+                  this.a <- IntvBoundMin(this.a,a2)
+                  this.b <- IntvBoundMax(this.b,b2)
+                 
+                member this.Widen(other:Intv) =
+                  let {a=a2; b=b2} = other
+                  this.a <- if IntvBoundGreaterEqualThan(a2,this.a) then this.a else NegInf
+                  this.b = if IntvBoundLessEqualThan(b2,this.b) then this.b else Inf 
+    
+    
 
     let TopInterval = {a=Inf; b=NegInf}
     let TopMatrix n = Matrix.zero n n
