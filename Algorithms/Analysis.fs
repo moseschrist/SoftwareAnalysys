@@ -113,8 +113,7 @@ module AbstractDomain =
     
    
     type Pentagon = {var: int; interval:Intv; relations: vector}       
-    type Lattice = {Intervals:Intv array; RelationMatrix: matrix}
-
+    
     let TopInterval = {a=Inf; b=NegInf}
     let TopMatrix n = Matrix.zero n n
     let TopVector n = Vector.zero n
@@ -129,8 +128,11 @@ module AbstractSemantics =
     open AbstractDomain
 //    type PState = AbstractDomain.PntgLattice array   (* an F# array type *)
     type PState = int array   (* an F# array type *)
-    type _PState = State of  Lattice
-                    | None
+    type _PState = {mutable Intervals:Intv array; mutable RelationMatrix: matrix}
+                    member this.setInterval(i:int, interval: Intv) =
+                        this.Intervals.SetValue(interval,i-1)
+                        
+
     let mutable dim: int = 0
     
     let  initLattice n = 
@@ -138,17 +140,20 @@ module AbstractSemantics =
         { Intervals= Array.create n AbstractDomain.TopInterval;
             RelationMatrix = AbstractDomain.TopMatrix n}
 
-    let mutable currentState: _PState = None
-
-    
-    
+    let mutable currentState: _PState = initLattice 0
 
     let rec updatePState (c:BJKCore.Cmd) (pst:_PState) = 
-       match c with
+        let rec analyzeAsgn (id: int) (e:BJKCore.Expr) (pst:_PState) =
+            match e with
+                Fix(i) -> pst.setInterval(id,{a=FinitBound(i); b=FinitBound(i)})
+                          pst
+                | _ -> pst
+
+        match c with
             | BJKCore.Skip          -> pst
             | BJKCore.Asgn(id,e)    -> match e with
 //                                            | BJKCore.Expr.Fix(i)       -> updateVarPState i (AbstractDomain.FinitBound i) (AbstractDomain.FinitBound i) pst
-                                            | BJKCore.Expr.Fix(i)       -> pst
+                                            | BJKCore.Expr.Fix(i)       -> analyzeAsgn (id) (e) (pst)
                                             | BJKCore.Expr.Var(i)       -> pst
                                             | BJKCore.Expr.Plus(e1, e2) -> pst
                                             | BJKCore.Expr.Minus(e1,e2) -> pst
@@ -211,14 +216,15 @@ module AbstractSemantics =
                Skip  -> 0
                | Choice (c1,c2) ->  Util.max(CountVarsInCmds(c1), CountVarsInCmds(c2))
                | Seq (c1,c2) -> Util.max(CountVarsInCmds(c1), CountVarsInCmds(c2))
-               | Asgn (_, e) -> CountVarsInExprs(e)
+               | Asgn (id, e2) -> Util.max(id,CountVarsInExprs(e2))
                | Assume(e) -> CountVarsInBoolExprs(e)
                | AssumeNot(e) -> CountVarsInBoolExprs(e)
                | While(e,c) -> Util.max(CountVarsInBoolExprs(e),CountVarsInCmds(c))
                | Loop(c) -> CountVarsInCmds(c)
                  
         let _PState = initLattice(CountVarsInCmds(c))
-       
+        let analysys = updatePState(c) (_PState)
+
 
 
         { info = dim.ToString() } : resultType
