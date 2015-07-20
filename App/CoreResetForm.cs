@@ -264,7 +264,7 @@ namespace CoreReset
                 updateAST(m_lastAST);
                 textBoxAnalysisResult.Clear();
                 textBoxAnalysisResult.Text = "Analysing...\n";
-                Analysis.resultType result = Analysis.analyse(m_lastAST);
+                Analysis.AbstractSemantics.resultType result = Analysis.AbstractSemantics.analyse(m_lastAST);
                 Console.WriteLine(result.toString());
                 textBoxAnalysisResult.Multiline = true;
                 textBoxAnalysisResult.Text = result.toString();

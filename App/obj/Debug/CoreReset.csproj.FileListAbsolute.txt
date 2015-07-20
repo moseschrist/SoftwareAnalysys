@@ -103,11 +103,6 @@ E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נו�
 E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.CoreResetForm.resources
 E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.Properties.Resources.resources
 E:\עופר\תואר שני - מדעי המחשב\תשע''ה\סמסטר ב\נושאים באנליזה סטטית של תוכניות - פרופ אמיר בן עמרם\פרוייקט\Ofer Amibar - Pentagon analysis\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
-C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.exe
-C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.pdb
-C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreReset.exe.config
-C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreReset.exe
-C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreReset.pdb
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\Algorithms.dll
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\FsLexYacc.Runtime.dll
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\Algorithms.pdb
@@ -119,3 +114,8 @@ C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנל
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\FSharp.PowerPack.dll
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\FSharp.PowerPack.xml
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreRese`t.exe.config
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreRese`t.exe
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreRese`t.pdb
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreRese`t.exe
+C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreRese`t.pdb

@@ -111,10 +111,13 @@ module AbstractDomain =
                   this.a <- if IntvBoundGreaterEqualThan(a2,this.a) then this.a else NegInf
                   this.b = if IntvBoundLessEqualThan(b2,this.b) then this.b else Inf 
     
-    
+   
+    type Pentagon = {var: int; interval:Intv; relations: vector}       
+    type Lattice = {Intervals:Intv array; RelationMatrix: matrix}
 
     let TopInterval = {a=Inf; b=NegInf}
     let TopMatrix n = Matrix.zero n n
+    let TopVector n = Vector.zero n
     let Bottom = "_"
     let Top = "T"
 
@@ -122,28 +125,25 @@ module AbstractDomain =
 (* definitions of abstract states.                          *)
 (************************************************************)
 module AbstractSemantics = 
+    open BJKCore
+    open AbstractDomain
 //    type PState = AbstractDomain.PntgLattice array   (* an F# array type *)
     type PState = int array   (* an F# array type *)
-    type _PState = {Intervals:AbstractDomain.Intv array; RelationMatrix: matrix}
+    type _PState = State of  Lattice
+                    | None
+    let mutable dim: int = 0
     
-
-
     let  initLattice n = 
+        dim <- n
         { Intervals= Array.create n AbstractDomain.TopInterval;
             RelationMatrix = AbstractDomain.TopMatrix n}
 
-    
-    
-    let UpdatePState(s:_PState) (varNum:int) (newInterval:AbstractDomain.Intv) (relationVector: vector) =
-        let {Intervals=i; RelationMatrix=r} = s
-        i.SetValue(newInterval, varNum)
-        for ind in 1 .. r.Column(varNum).Length do
-            r.Column(varNum).InternalValues.SetValue(relationVector.Item(ind),ind)
-        s
+    let mutable currentState: _PState = None
 
     
+    
 
-    let rec updatePState (c:BJKCore.Cmd) (pst:PState) = 
+    let rec updatePState (c:BJKCore.Cmd) (pst:_PState) = 
        match c with
             | BJKCore.Skip          -> pst
             | BJKCore.Asgn(id,e)    -> match e with
@@ -178,18 +178,50 @@ module AbstractSemantics =
 
 
 
-type resultType = 
-    {
-        info: string
-    }
-    member x.toString() = x.info.ToString()
+    type resultType = 
+        {
+            info: string
+        }
+        member x.toString() = x.info.ToString()
 
 
-(*  main analysis function. currently quite stupid *)
-let analyse(c : BJKCore.Cmd) : resultType = 
+    (*  main analysis function. currently quite stupid *)
+    let analyse(c : BJKCore.Cmd) : resultType =
+        let rec CountVarsInExprs (e : Expr) =
+            match e with
+                Fix _ -> 0
+                | Var x -> x
+                | Plus(e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+                | Minus(e1,e2) ->  Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+                | Times(e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
 
-    
-    { info = "Hello \r\n 42" } : resultType
- //   {  info = BJKCore.pprti "" "\r\n" c } : resultType
+        let rec CountVarsInBoolExprs (e : BoolExp) =
+            match e with
+                True -> 0
+                | False -> 0
+                | Equal (e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+                | NotEqual (e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+                | Great (e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+                | GreatEqual (e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+                | Less (e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+                | LessEqual (e1,e2) -> Util.max(CountVarsInExprs(e1), CountVarsInExprs(e2))
+
+        let rec CountVarsInCmds (c: BJKCore.Cmd) =
+            match c with
+               Skip  -> 0
+               | Choice (c1,c2) ->  Util.max(CountVarsInCmds(c1), CountVarsInCmds(c2))
+               | Seq (c1,c2) -> Util.max(CountVarsInCmds(c1), CountVarsInCmds(c2))
+               | Asgn (_, e) -> CountVarsInExprs(e)
+               | Assume(e) -> CountVarsInBoolExprs(e)
+               | AssumeNot(e) -> CountVarsInBoolExprs(e)
+               | While(e,c) -> Util.max(CountVarsInBoolExprs(e),CountVarsInCmds(c))
+               | Loop(c) -> CountVarsInCmds(c)
+                 
+        let _PState = initLattice(CountVarsInCmds(c))
+       
+
+
+        { info = dim.ToString() } : resultType
+        //   {  info = BJKCore.pprti "" "\r\n" c } : resultType
 
 
