@@ -162,9 +162,28 @@ module AbstractSemantics =
         dim <- n
         { Intervals= Array.create n AbstractDomain.TopInterval;
             RelationMatrix = AbstractDomain.TopMatrix n;
-            widening = 0}
+            widening = -1}
 
     let mutable currentState: _PState = initLattice 0
+
+    let AreIntervalsEqual(intvs1 : Intv array, intvs2 : Intv array) =
+        let mutable res = true
+        for ind in 0 .. (intvs1.Length - 1) do
+            if (intvs1.[ind].a <> intvs2.[ind].a || intvs1.[ind].b <> intvs2.[ind].b) then res <- false
+        res
+
+    let AreStatesEqual(pst1: _PState,pst2: _PState) = AreIntervalsEqual(pst1.Intervals, pst2.Intervals)
+
+    let join(pst1: _PState,pst2: _PState) = 
+        for ind in 0 .. (pst1.Intervals.Length - 1) do
+            pst1.Intervals.[ind].Join(pst2.Intervals.[ind])
+        pst1
+
+    let widen(pst1: _PState,pst2: _PState) = 
+        for ind in 0 .. (pst1.Intervals.Length - 1) do
+            pst1.Intervals.[ind].Widen(pst2.Intervals.[ind])
+        pst1
+   
 
     let rec updatePState (c:BJKCore.Cmd) (pst:_PState) = 
         let rec analyzeAsgn (id: int) (e:BJKCore.Expr) (pst:_PState) =
@@ -172,6 +191,18 @@ module AbstractSemantics =
                 Fix(i) -> pst.setInterval(id,{a=FinitBound(i); b=FinitBound(i)})
                           pst
                 | _ -> pst
+
+        let joinLoop (c:BJKCore.Cmd , pst: _PState) = 
+            let mutable fp = false
+            let mutable count = 0
+            let mutable pstNew = initLattice(pst.Intervals.Length)
+            while (fp <> true) do
+                pstNew <-  updatePState(c)(pst)
+                if (pst.widening = count) then
+                   pstNew <- widen(pst, pstNew)
+                else pstNew <- join(pst, pstNew)
+                fp <- AreStatesEqual(pst, pstNew)
+            pstNew
 
         match c with
             | BJKCore.Skip          -> pst
@@ -182,7 +213,7 @@ module AbstractSemantics =
                                             | BJKCore.Expr.Plus(e1, e2) -> pst
                                             | BJKCore.Expr.Minus(e1,e2) -> pst
                                             | BJKCore.Expr.Times(e1,e2) -> pst
-            | BJKCore.Choice(s1,s2) -> pst
+            | BJKCore.Choice(s1,s2) -> join(updatePState(s1)(pst),updatePState(s2)(pst))
             | BJKCore.Assume(b)     -> match b with
                                             | BJKCore.BoolExp.True               -> pst
                                             | BJKCore.BoolExp.False              -> pst
@@ -202,8 +233,8 @@ module AbstractSemantics =
                                             | BJKCore.BoolExp.Less(e1, e2)       -> pst
                                             | BJKCore.BoolExp.LessEqual(e1, e2)  -> pst
             | BJKCore.Seq(s1,s2)    -> updatePState(s2)(updatePState(s1)(pst))
-            | BJKCore.Loop(c)       -> pst
-            | BJKCore.While(b,s)    -> pst
+            | BJKCore.Loop(c)       -> joinLoop(c, pst)
+            | BJKCore.While(b,s)    -> joinLoop(BJKCore.Seq(BJKCore.Assume(b),s) ,pst)
             | BJKCore.Widening(i)   -> pst.setWidening(i) 
                                        pst
 
@@ -248,11 +279,11 @@ module AbstractSemantics =
                | Loop(c) -> CountVarsInCmds(c)
                | Widening(i) -> 0
                  
-        let _PState = initLattice(CountVarsInCmds(c))
-        let analysys = updatePState(c) (_PState)
+        let state = initLattice(CountVarsInCmds(c))
+        let analysys = updatePState(c) (state)
 
-        { info = AbstractDomain.printIntervals(_PState.Intervals) + AbstractDomain.printMatrix(_PState.RelationMatrix) 
-        + System.Environment.NewLine + "Widening: " + _PState.widening.ToString(); } : resultType
+        { info = AbstractDomain.printIntervals(state.Intervals) + AbstractDomain.printMatrix(state.RelationMatrix) 
+        + System.Environment.NewLine + "Widening: " + state.widening.ToString(); } : resultType
         //   {  info = BJKCore.pprti "" "\r\n" c } : resultType
 
 
