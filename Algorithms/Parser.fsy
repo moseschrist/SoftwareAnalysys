@@ -24,6 +24,7 @@ open BJKCore
 %token EOF
 %token CMD
 %token <string> STRING
+%token WIDENING
 
 %left PLUS SEMI VAR
 %left MINUS
@@ -44,6 +45,7 @@ open BJKCore
 		  | IF LBRACE COMMAND RBRACE ELSE LBRACE COMMAND RBRACE   {BJKCore.Choice($3,$7)}
 		  | CHOOSE LBRACE COMMAND RBRACE OR LBRACE COMMAND RBRACE {BJKCore.Choice($3,$7)}
 		  | ASSUME LPAREN BOOLEXP RPAREN                          {BJKCore.Assume($3)}
+		  | WIDENING FIX COMMAND                         {BJKCore.Seq(BJKCore.Widening($2),$3)}
   EXP : VAR      		    {BJKCore.Var($1)}
       | FIX                 {BJKCore.Fix ($1)}
       | EXP PLUS EXP        {BJKCore.Plus($1,$3)}

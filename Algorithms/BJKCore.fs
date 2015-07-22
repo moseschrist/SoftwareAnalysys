@@ -23,7 +23,7 @@
                | Seq       of Cmd * Cmd  
                | While     of BoolExp * Cmd
                | Loop      of Cmd
-
+               | Widening  of int
 
     let rec highest_var_inE = function
         | Var(i)          -> i
@@ -64,6 +64,7 @@
                                 | GreatEqual(e1, e2) -> Util.max(Util.max(highest_var_inE e1, highest_var_inE e2), highest_var c)
                                 | Less(e1, e2)       -> Util.max(Util.max(highest_var_inE e1, highest_var_inE e2), highest_var c)
                                 | LessEqual(e1, e2)  -> Util.max(Util.max(highest_var_inE e1, highest_var_inE e2), highest_var c)
+        | Widening(i)       -> 1
 
     let rec prtExpr = function
         | Fix i             -> i.ToString()

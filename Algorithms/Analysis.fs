@@ -35,7 +35,13 @@ module AbstractDomain =
                                     | (_, Inf) -> Inf
                                     | (NegInf, _) -> NegInf
                                     | (_, NegInf) -> NegInf
-    
+
+                        override this.ToString() =
+                                    match this with
+                                    | FinitBound(i) -> i.ToString()
+                                    | Inf -> "Inf"
+                                    | NegInf -> "-Inf"
+
     let IntvBoundGreaterEqualThan(left:IntvBound, right:IntvBound) =
         match (left,right) with
             (FinitBound a, FinitBound b) -> a>=b
@@ -120,6 +126,21 @@ module AbstractDomain =
     let Bottom = "_"
     let Top = "T"
 
+    let printIntervals (intervals: Intv array) =
+        let mutable s = ""
+        for ind in 0 .. (intervals.Length-1) do
+            s <- s + "X" + (ind+1).ToString() + " = [" + (string)intervals.[ind].b + "," + intervals.[ind].a.ToString() + "]" + System.Environment.NewLine
+        s
+
+    let printMatrix (si :matrix) =
+        let mutable r = System.Environment.NewLine
+        for i in 0 .. (si.NumRows - 1) do
+            for j in 0 .. (si.NumCols - 1) do
+                if (int(si.[i,j]) = 1) then
+                    r <- "X" + (i+1).ToString() + " < " + "X" + (j+1).ToString() + System.Environment.NewLine
+        r
+
+
 (************************************************************)
 (* definitions of abstract states.                          *)
 (************************************************************)
@@ -128,9 +149,11 @@ module AbstractSemantics =
     open AbstractDomain
 //    type PState = AbstractDomain.PntgLattice array   (* an F# array type *)
     type PState = int array   (* an F# array type *)
-    type _PState = {mutable Intervals:Intv array; mutable RelationMatrix: matrix}
+    type _PState = {mutable Intervals:Intv array; mutable RelationMatrix: matrix; mutable widening: int}
                     member this.setInterval(i:int, interval: Intv) =
                         this.Intervals.SetValue(interval,i-1)
+                    member this.setWidening(i:int) =
+                        this.widening <- i
                         
 
     let mutable dim: int = 0
@@ -138,7 +161,8 @@ module AbstractSemantics =
     let  initLattice n = 
         dim <- n
         { Intervals= Array.create n AbstractDomain.TopInterval;
-            RelationMatrix = AbstractDomain.TopMatrix n}
+            RelationMatrix = AbstractDomain.TopMatrix n;
+            widening = 0}
 
     let mutable currentState: _PState = initLattice 0
 
@@ -177,10 +201,11 @@ module AbstractSemantics =
                                             | BJKCore.BoolExp.GreatEqual(e1, e2) -> pst
                                             | BJKCore.BoolExp.Less(e1, e2)       -> pst
                                             | BJKCore.BoolExp.LessEqual(e1, e2)  -> pst
-            | BJKCore.Seq(s1,s2)    -> pst
+            | BJKCore.Seq(s1,s2)    -> updatePState(s2)(updatePState(s1)(pst))
             | BJKCore.Loop(c)       -> pst
             | BJKCore.While(b,s)    -> pst
-
+            | BJKCore.Widening(i)   -> pst.setWidening(i) 
+                                       pst
 
 
     type resultType = 
@@ -190,7 +215,7 @@ module AbstractSemantics =
         member x.toString() = x.info.ToString()
 
 
-    (*  main analysis function. currently quite stupid *)
+    (*  main analysis function *)
     let analyse(c : BJKCore.Cmd) : resultType =
         let rec CountVarsInExprs (e : Expr) =
             match e with
@@ -221,13 +246,13 @@ module AbstractSemantics =
                | AssumeNot(e) -> CountVarsInBoolExprs(e)
                | While(e,c) -> Util.max(CountVarsInBoolExprs(e),CountVarsInCmds(c))
                | Loop(c) -> CountVarsInCmds(c)
+               | Widening(i) -> 0
                  
         let _PState = initLattice(CountVarsInCmds(c))
         let analysys = updatePState(c) (_PState)
 
-
-
-        { info = dim.ToString() } : resultType
+        { info = AbstractDomain.printIntervals(_PState.Intervals) + AbstractDomain.printMatrix(_PState.RelationMatrix) 
+        + System.Environment.NewLine + "Widening: " + _PState.widening.ToString(); } : resultType
         //   {  info = BJKCore.pprti "" "\r\n" c } : resultType
 
 
