@@ -36,7 +36,8 @@ let keywords = (* a Map collection representing the keyword to token id funcctio
         "true",   TRUE;
         "True",   TRUE;
         "false",  FALSE;
-        "False",  FALSE; 
+        "False",  FALSE;
+        "@widening",  WIDENING; 
     ] |> Map.ofList   
  
 let ops =   
@@ -75,7 +76,7 @@ let rec getVarIndex (varId : string, varTable : Dictionary<string, int>) =
       else newVarIndex(varId) 
 }   
 
-let char        = ['a'-'z' 'A'-'Z']
+let char        = ['a'-'z' 'A'-'Z' '@']
 let digit       = ['0'-'9']   
 let identifier  = char(char|digit|['-' '_'])*   
 let whitespace  = [' ' '\t']   

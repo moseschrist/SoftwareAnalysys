@@ -114,6 +114,10 @@ namespace CoreReset
                 child = new CmdTreeNode("Loop*");
                 addASTNode(child, loop.Item);
             }
+            else if (c.IsWidening)
+            {
+                child = new CmdTreeNode("Widening");
+            }
             
 
             parent.Nodes.Add(child);

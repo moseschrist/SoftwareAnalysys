@@ -119,3 +119,21 @@ C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנל
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\bin\Debug\CoreRese`t.pdb
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreRese`t.exe
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\App\obj\Debug\CoreRese`t.pdb
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\CoreRese`t.exe.config
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\CoreRese`t.exe
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\CoreRese`t.pdb
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\Algorithms.dll
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\FSharp.Core.dll
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\FsLexYacc.Runtime.dll
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\FSharp.PowerPack.dll
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\Algorithms.pdb
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\FSharp.Core.xml
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\FsLexYacc.Runtime.xml
+C:\staticanalysis\master\SoftwareAnalysys\App\bin\Debug\FSharp.PowerPack.xml
+C:\staticanalysis\master\SoftwareAnalysys\App\obj\Debug\CoreReset.csprojResolveAssemblyReference.cache
+C:\staticanalysis\master\SoftwareAnalysys\App\obj\Debug\CoreReset.AboutForm.resources
+C:\staticanalysis\master\SoftwareAnalysys\App\obj\Debug\CoreReset.CoreResetForm.resources
+C:\staticanalysis\master\SoftwareAnalysys\App\obj\Debug\CoreReset.Properties.Resources.resources
+C:\staticanalysis\master\SoftwareAnalysys\App\obj\Debug\CoreReset.csproj.GenerateResource.Cache
+C:\staticanalysis\master\SoftwareAnalysys\App\obj\Debug\CoreRese`t.exe
+C:\staticanalysis\master\SoftwareAnalysys\App\obj\Debug\CoreRese`t.pdb

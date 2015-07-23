@@ -87,3 +87,20 @@ C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנל
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Linq.xml
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Metadata.xml
 C:\Users\Asaf\Downloads\פרויקט_אנליזה-2015-07-18\פרויקט אנליזה\Ofer Amibar - Pentagon analysis\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Parallel.Seq.xml
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\Algorithms.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\Algorithms.pdb
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.Core.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Linq.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Metadata.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Parallel.Seq.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FsLexYacc.Runtime.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.Core.xml
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.xml
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Linq.xml
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Metadata.xml
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FSharp.PowerPack.Parallel.Seq.xml
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\bin\Debug\FsLexYacc.Runtime.xml
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\obj\Debug\Algorithms.fsprojResolveAssemblyReference.cache
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\obj\Debug\Algorithms.dll
+C:\staticanalysis\master\SoftwareAnalysys\Algorithms\obj\Debug\Algorithms.pdb
