@@ -160,10 +160,12 @@ module AbstractDomain =
 
     let printMatrix (si :matrix) =
         let mutable r = System.Environment.NewLine
+        
         for i in 0 .. (si.NumRows - 1) do
             for j in 0 .. (si.NumCols - 1) do
                 if (int(si.[i,j]) = 1) then
-                    r <- "X" + (i+1).ToString() + " < " + "X" + (j+1).ToString() + System.Environment.NewLine
+                    let nl = "X" + (i+1).ToString() + " < " + "X" + (j+1).ToString() + System.Environment.NewLine
+                    r<- r+nl
         r
 
 
